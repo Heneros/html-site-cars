@@ -212,6 +212,20 @@ body{
     margin-bottom: 30px;
 }
 
+.rent__title{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+.rent__text{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
 .rent__text + .rent__text{
   margin-bottom: 40px;
 }
@@ -219,5 +233,26 @@ body{
 .rent__item{
     border: 1px solid #332208;
     width: 250px;
-    padding: 0 30px 10px;
+    padding: 0 35px 20px;
+    text-align: center;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rent__item-num{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 115px;
+    opacity: 0.05; 
+}
+
+.rent__item-title{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: auto;
 }
