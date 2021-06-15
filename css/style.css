@@ -157,7 +157,7 @@ body{
 .top__items{
     width: 50%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .top__item{
@@ -178,6 +178,9 @@ body{
 .top__item:hover{
     transform: scale(1.25);
 }
+.top__links{
+   padding-right: 80px;
+}
 
 .top__link{
     color: #1B1818;
@@ -185,4 +188,36 @@ body{
 }
 .top__link + .top__link{
   margin-left: 20px;
+}
+
+.top{
+    padding-bottom: 100px;
+}
+
+.rent{
+    padding: 100px 0;
+}
+
+.rent__inner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rent__content{
+    width: 300px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+
+.rent__text + .rent__text{
+  margin-bottom: 40px;
+}
+
+.rent__item{
+    border: 1px solid #332208;
+    width: 250px;
+    padding: 0 30px 10px;
 }
