@@ -256,3 +256,45 @@ body{
     line-height: 22px;
     margin-bottom: auto;
 }
+
+.benefits{
+    padding: 100px 0;
+}
+
+.benefits__title{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 50px;
+}
+
+
+.benefits__items{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.benefits__list{
+    width: 300px;
+    list-style: none;
+}
+
+.benefits__list-item{
+    margin-bottom: 27px;
+    padding-right: 26px;
+    position: relative;
+}
+.benefits__list-item::after{
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #332208;
+  right: 0;
+}
+.benefits__content{
+    width: 300px;
+}
